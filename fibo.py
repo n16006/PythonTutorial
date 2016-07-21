@@ -4,7 +4,7 @@ def fib(n):
     while b < n:
         print(b, end='')
         a, b = b, a + b
-        prnt()
+        pirnt()
 
         def fib2(n):
             result = []
@@ -13,3 +13,8 @@ def fib(n):
                 result.append(b)
                 a, b = b, a + b
                 return result
+
+
+            if __name__ == '__main__':
+                import sys
+                fib(int(sys,argv[1]))
