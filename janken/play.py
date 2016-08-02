@@ -22,7 +22,7 @@ else:
 def judgement(player, computer):
     """
     じゃんけんの勝敗を判定する。
-    :param player: HANDSの中のどれか
+    :param player: HANDSの中のどれか。
     :param computer: HANDSの中のどれか
     :return: プレイヤーが勝ちの場合は1,あいこは0,負けは-1を返す
     """
